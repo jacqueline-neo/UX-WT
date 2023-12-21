@@ -1,0 +1,580 @@
+<!doctype html>
+<html>
+
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>ECA</title>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link
+        href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" type="text/css" />
+    <!--Main CSS-->
+    <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
+    <!-- <script src="jquery.js"></script> -->
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <div id="navbar"></div>
+    <!-- showhead-->
+    <header class="porthead">
+        <div class="container">
+            <div class="porthead porthead-subheading">Portfolio</div>
+        </div>
+    </header>
+    <!-- Breadcrumb-->
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li>Portfolio</li>
+      </ul>
+      <!--Filter-->
+      <div class = "container">
+      <p>Filter by:</p>
+      <div class="text-center">
+      <p class="section-subheading text-muted">Type of Travel</p>
+    </div>
+      <div class="filter-buttons">
+        <button class="filter-button active" data-category="all">All</button>
+        <button class="filter-button" data-category="nature">Nature</button>
+        <button class="filter-button" data-category="relaxing">Relaxing</button>
+        <button class="filter-button" data-category="shopping">Shopping</button>
+        <button class="filter-button" data-category="adventure">Adventure</button>
+      </div>     
+      <div class="text-center">
+        <p class="section-subheading text-muted">Cost</p>
+      </div>
+        <div class="filter-buttons">
+          <button class="filter-button active" data-category="all">All</button>
+          <button class="filter-button" data-category="cheap">Less than $5,000</button>
+          <button class="filter-button" data-category="affordable">Between $5,000 to $10,000</button>
+          <button class="filter-button" data-category="expensive">Above $10,000</button>
+        </div>    
+    </div>
+    <!-- Portfolio Grid-->
+    <section class="page-section bg-light" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h3 class="section-subheading text-muted">Enjoyable Experience Everywhere <br><br>Here are some Recommended
+                    Places I've been to: <br><br> **Prices are subjective and based on my experience only</h3> 
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 1-->
+                    <div class="portfolio-item nature relaxing cheap">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="images/thailand.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Thailand / Malaysia</div>
+                            <div class="portfolio-caption-subheading text-muted">2022</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 2-->
+                    <div class="portfolio-item nature adventure expensive">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="images/newzealand1.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">New Zealand</div>
+                            <div class="portfolio-caption-subheading text-muted">2019</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 3-->
+                    <div class="portfolio-item shopping nature affordable">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="images/taiwan.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Taiwan</div>
+                            <div class="portfolio-caption-subheading text-muted">2018</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <!-- Portfolio item 4-->
+                    <div class="portfolio-item shopping nature affordable">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="images/southkorea.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">South Korea</div>
+                            <div class="portfolio-caption-subheading text-muted">2018</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                    <!-- Portfolio item 5-->
+                    <div class="portfolio-item adventure shopping expensive">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="images/usa.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">USA</div>
+                            <div class="portfolio-caption-subheading text-muted">2016</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Portfolio item 6-->
+                    <div class="portfolio-item shopping nature adventure expensive">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="images/japan.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Japan</div>
+                            <div class="portfolio-caption-subheading text-muted">2015</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Modals-->
+    <!-- Portfolio item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <i class="close-modal fa fa-times" aria-hidden="true" data-bs-dismiss="modal"></i>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase" id="modal-title"></h2>
+                                <p class="item-intro text-muted">An unfamiliar tourist resort</p>
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+                                    data-bs-interval="false">
+                                    <ol class="carousel-indicators">
+                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                            class="active"></li>
+                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100 carousel-image" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100 carousel-image" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100 carousel-image" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <br>
+                                        <span class="visually-hidden">Next</span>
+                                    </a>
+                                </div>
+                                <p class="item-intro text-muted">Highlights</p>
+                                <button type="button" class="btn btn-secondary" id="kohlipe">Koh Lipe</button>
+                                <button type="button" class="btn btn-secondary" id="langkawi">Langkawi</button>
+                                <p class="item-intro text-muted"><strong>My Review</strong></p>
+                                <p id="modal-text-body"></p>
+                                <ul class="list-inline">
+                                    <li id="advantages">
+                                    </li>
+                                    <li id="disadvantages">
+                                    </li>
+                                </ul>
+                                <script src="js/portfolioScript.js"></script>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio item 2 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <i class="close-modal fa fa-times" aria-hidden="true" data-bs-dismiss="modal"></i>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase" id="modal-title2"></h2>
+                                <p class="item-intro text-muted">Breathtaking views of the nature</p>
+                                <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel"
+                                    data-bs-interval="false">
+                                    <ol class="carousel-indicators">
+                                        <li data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0"
+                                            class="active"></li>
+                                        <li data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"></li>
+                                        <li data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100 carousel-image" alt="First slide" src="">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100 carousel-image" alt="Second slide" src="">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100 carousel-image" alt="Third slide" src="">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </a>
+                                </div>
+                                <p class="item-intro text-muted">Highlights</p>
+                                <button type="button" class="btn btn-secondary" id="queenstown">Queenstown</button>
+                                <button type="button" class="btn btn-secondary" id="lakes">Lakes</button>
+                                <button type="button" class="btn btn-secondary" id="nugget">Nugget Point</button>
+                                <button type="button" class="btn btn-secondary" id="others">Others</button>
+                                <p class="item-intro text-muted"><strong>My Review</strong></p>
+                                <p id="modal-text-body2"></p>
+                                <ul class="list-inline">
+                                    <li id="advantages2">
+                                    </li>
+                                    <li id="disadvantages2">
+                                    </li>
+                                </ul>
+                                <script src="js/portfolioScript.js"></script>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 3 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <i class="close-modal fa fa-times" aria-hidden="true" data-bs-dismiss="modal"></i>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase" id="modal-title3"></h2>
+                                <p class="item-intro text-muted">Various attractions and beautiful sites</p>
+                                <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel"
+                                    data-bs-interval="false">
+                                    <ol class="carousel-indicators">
+                                        <li data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0"
+                                            class="active"></li>
+                                        <li data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1"></li>
+                                        <li data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100 carousel-image" alt="First slide" src="">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100 carousel-image" alt="Second slide" src="">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100 carousel-image" alt="Third slide" src="">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </a>
+                                </div>
+                                <p class="item-intro text-muted">Highlights</p>
+                                <button type="button" class="btn btn-secondary" id="taipei">Taipei</button>
+                                <button type="button" class="btn btn-secondary" id="others2">Others</button>
+                                <p class="item-intro text-muted"><strong>My Review</strong></p>
+                                <p id="modal-text-body3"></p>
+                                <ul class="list-inline">
+                                    <li id="advantages3">
+                                    </li>
+                                    <li id="disadvantages3">
+                                    </li>
+                                </ul>
+                                <script src="js/portfolioScript.js"></script>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 4 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <i class="close-modal fa fa-times" aria-hidden="true" data-bs-dismiss="modal"></i>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase" id="modal-title4"></h2>
+                                <p class="item-intro text-muted">Various attractions and beautiful sites</p>
+                                <div id="carouselExampleIndicators4" class="carousel slide" data-bs-ride="carousel"
+                                    data-bs-interval="false">
+                                    <ol class="carousel-indicators">
+                                        <li data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0"
+                                            class="active"></li>
+                                        <li data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1"></li>
+                                        <li data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100 carousel-image" alt="First slide" src="">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100 carousel-image" alt="Second slide" src="">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100 carousel-image" alt="Third slide" src="">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </a>
+                                </div>
+                                <p class="item-intro text-muted">Highlights</p>
+                                <button type="button" class="btn btn-secondary" id="seoul">Seoul</button>
+                                <button type="button" class="btn btn-secondary" id="jeju">Jeju</button>
+                                <p class="item-intro text-muted"><strong>My Review</strong></p>
+                                <p id="modal-text-body4"></p>
+                                <ul class="list-inline">
+                                    <li id="advantages4">
+                                    </li>
+                                    <li id="disadvantages4">
+                                    </li>
+                                </ul>
+                                <script src="js/portfolioScript.js"></script>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 5 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <i class="close-modal fa fa-times" aria-hidden="true" data-bs-dismiss="modal"></i>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase" id="modal-title5"></h2>
+                                <p class="item-intro text-muted">Various attractions and beautiful sites</p>
+                                <div id="carouselExampleIndicators5" class="carousel slide" data-bs-ride="carousel"
+                                    data-bs-interval="false">
+                                    <ol class="carousel-indicators">
+                                        <li data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="0"
+                                            class="active"></li>
+                                        <li data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="1"></li>
+                                        <li data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100 carousel-image" alt="First slide" src="">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100 carousel-image" alt="Second slide" src="">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100 carousel-image" alt="Third slide" src="">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators5" role="button"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators5" role="button"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </a>
+                                </div>
+                                <p class="item-intro text-muted">Highlights</p>
+                                <button type="button" class="btn btn-secondary" id="sanfran">San Francisco</button>
+                                <button type="button" class="btn btn-secondary" id="yosemite">Yosemite National Park</button>
+                                <button type="button" class="btn btn-secondary" id="losa">Los Angeles</button>
+                                <button type="button" class="btn btn-secondary" id="lasv">Las Vegas</button>
+                                <p class="item-intro text-muted"><strong>My Review</strong></p>
+                                <p id="modal-text-body5"></p>
+                                <ul class="list-inline">
+                                    <li id="advantages5">
+                                    </li>
+                                    <li id="disadvantages5">
+                                    </li>
+                                </ul>
+                                <script src="js/portfolioScript.js"></script>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 6 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <i class="close-modal fa fa-times" aria-hidden="true" data-bs-dismiss="modal"></i>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase" id="modal-title6"></h2>
+                                <p class="item-intro text-muted">Various attractions and beautiful sites</p>
+                                <div id="carouselExampleIndicators6" class="carousel slide" data-bs-ride="carousel"
+                                    data-bs-interval="false">
+                                    <ol class="carousel-indicators">
+                                        <li data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="0"
+                                            class="active"></li>
+                                        <li data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="1"></li>
+                                        <li data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100 carousel-image" alt="First slide" src="">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100 carousel-image" alt="Second slide" src="">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100 carousel-image" alt="Third slide" src="">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators6" role="button"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators6" role="button"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </a>
+                                </div>
+                                <p class="item-intro text-muted">Highlights</p>
+                                <button type="button" class="btn btn-secondary" id="tokyo">Tokyo</button>
+                                <button type="button" class="btn btn-secondary" id="hokkaido">Hokkaido</button>
+                                <p class="item-intro text-muted"><strong>My Review</strong></p>
+                                <p id="modal-text-body6"></p>
+                                <ul class="list-inline">
+                                    <li id="advantages6">
+                                    </li>
+                                    <li id="disadvantages6">
+                                    </li>
+                                </ul>
+                                <script src="js/portfolioScript.js"></script>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer-->
+    <div id="footer"></div>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/myScript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#navbar").load("common/navbar.html");
+            $("#footer").load("common/footer.html");
+
+            $.getScript('js/myScript.js');
+    
+        });
+    </script>
+</body>
+
+</html>
